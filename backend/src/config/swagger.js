@@ -30,7 +30,7 @@ const options = {
         },
         servers: [
             {
-                url: process.env.SERVER_URL ? `https://${process.env.SERVER_URL}/api` : 'http://localhost:3000/api',
+                url: process.env.SERVER_URL ? `https://${process.env.SERVER_URL}` : 'http://localhost:3000/api',
                 description: 'Local server',
             },
         ],
